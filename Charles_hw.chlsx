@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE charles-session SYSTEM "https://www.charlesproxy.com/dtd/charles-session-1_2.dtd">
+
+<charles-session>
+<transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="162.55.220.72" port="5005" actualPort="5005" path="/user_info_2" remoteAddress="162.55.220.72/162.55.220.72" clientAddress="/127.0.0.1" clientPort="52537" startTime="2023-02-02T11:56:44.001+01:00" startTimeMillis="1675335404001" requestBeginTime="2023-02-02T11:56:44.021+01:00" requestBeginTimeMillis="1675335404021" requestTime="2023-02-02T11:56:44.021+01:00" requestTimeMillis="1675335404021" responseTime="2023-02-02T11:56:44.049+01:00" responseTimeMillis="1675335404049" endTime="2023-02-02T11:56:44.050+01:00" endTimeMillis="1675335404050" duration="47" dnsDuration="0" connectDuration="18" requestDuration="0" responseDuration="1" latency="28" overallSpeed="27723" requestSpeed="0" responseSpeed="566000" totalSize="1303">
+<request headers="359" body="378" mime-type="multipart/form-data">
+<headers>
+<first-line><![CDATA[POST /user_info_2 HTTP/1.1]]></first-line>
+<header>
+<name>User-Agent</name>
+<value>PostmanRuntime/7.30.1</value></header>
+<header>
+<name>Accept</name>
+<value>*/*</value></header>
+<header>
+<name>Cache-Control</name>
+<value>no-cache</value></header>
+<header>
+<name>Postman-Token</name>
+<value>d583b14c-88e4-449f-bf9f-5178ecb46b8a</value></header>
+<header>
+<name>Host</name>
+<value>162.55.220.72:5005</value></header>
+<header>
+<name>Accept-Encoding</name>
+<value>gzip, deflate, br</value></header>
+<header>
+<name>Content-Type</name>
+<value>multipart/form-data; boundary=--------------------------316933736848901100238053</value></header>
+<header>
+<name>Content-Length</name>
+<value>378</value></header>
+<header>
+<name>Connection</name>
+<value>keep-alive</value></header></headers></request>
+<response status="200" headers="235" body="331" mime-type="application/json">
+<headers>
+<first-line><![CDATA[HTTP/1.0 200 OK]]></first-line>
+<header>
+<name>Content-Type</name>
+<value>application/json</value></header>
+<header>
+<name>Content-Length</name>
+<value>331</value></header>
+<header>
+<name>Server</name>
+<value>Werkzeug/2.0.1 Python/3.8.10</value></header>
+<header>
+<name>Date</name>
+<value>Thu, 02 Feb 2023 10:56:44 GMT</value></header>
+<header>
+<name>Connection</name>
+<value>close</value></header></headers></response></transaction>
+<transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="162.55.220.72" port="5005" actualPort="5005" path="/user_info_2" remoteAddress="162.55.220.72/162.55.220.72" clientAddress="/127.0.0.1" clientPort="52543" startTime="2023-02-02T11:57:12.445+01:00" startTimeMillis="1675335432445" requestBeginTime="2023-02-02T11:57:12.474+01:00" requestBeginTimeMillis="1675335432474" requestTime="2023-02-02T11:57:12.475+01:00" requestTimeMillis="1675335432475" responseTime="2023-02-02T11:57:12.500+01:00" responseTimeMillis="1675335432500" endTime="2023-02-02T11:57:12.500+01:00" endTimeMillis="1675335432500" duration="55" dnsDuration="0" connectDuration="29" requestDuration="1" responseDuration="0" latency="25" overallSpeed="23690" requestSpeed="737000" responseSpeed="0" totalSize="1303">
+<request headers="359" body="378" mime-type="multipart/form-data">
+<headers>
+<first-line><![CDATA[POST /user_info_2 HTTP/1.1]]></first-line>
+<header>
+<name>User-Agent</name>
+<value>PostmanRuntime/7.30.1</value></header>
+<header>
+<name>Accept</name>
+<value>*/*</value></header>
+<header>
+<name>Cache-Control</name>
+<value>no-cache</value></header>
+<header>
+<name>Postman-Token</name>
+<value>5e9ead66-67ad-43e4-8336-809d9e69228a</value></header>
+<header>
+<name>Host</name>
+<value>162.55.220.72:5005</value></header>
+<header>
+<name>Accept-Encoding</name>
+<value>gzip, deflate, br</value></header>
+<header>
+<name>Content-Type</name>
+<value>multipart/form-data; boundary=--------------------------425143796179890774876607</value></header>
+<header>
+<name>Content-Length</name>
+<value>378</value></header>
+<header>
+<name>Connection</name>
+<value>keep-alive</value></header></headers></request>
+<response status="200" headers="235" body="331" mime-type="application/json">
+<headers>
+<first-line><![CDATA[HTTP/1.0 200 OK]]></first-line>
+<header>
+<name>Content-Type</name>
+<value>application/json</value></header>
+<header>
+<name>Server</name>
+<value>Werkzeug/2.0.1 Python/3.8.10</value></header>
+<header>
+<name>Date</name>
+<value>Thu, 02 Feb 2023 10:57:13 GMT</value></header>
+<header>
+<name>Content-Length</name>
+<value>289</value></header>
+<header>
+<name>Connection</name>
+<value>close</value></header></headers></response></transaction>
+<transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="162.55.220.72" port="5005" actualPort="5005" path="/user_info_2" remoteAddress="162.55.220.72/162.55.220.72" clientAddress="/127.0.0.1" clientPort="52572" startTime="2023-02-02T11:59:48.733+01:00" startTimeMillis="1675335588733" requestBeginTime="2023-02-02T12:00:30.094+01:00" requestBeginTimeMillis="1675335630094" requestTime="2023-02-02T12:00:30.094+01:00" requestTimeMillis="1675335630094" responseTime="2023-02-02T12:00:30.119+01:00" responseTimeMillis="1675335630119" endTime="2023-02-02T12:00:30.119+01:00" endTimeMillis="1675335630119" duration="43" dnsDuration="0" connectDuration="18" requestDuration="0" responseDuration="0" latency="25" overallSpeed="30302" requestSpeed="0" responseSpeed="0" totalSize="1303">
+<request headers="359" body="378" mime-type="multipart/form-data">
+<headers>
+<first-line><![CDATA[POST /user_info_2 HTTP/1.1]]></first-line>
+<header>
+<name>User-Agent</name>
+<value>PostmanRuntime/7.30.1</value></header>
+<header>
+<name>Accept</name>
+<value>*/*</value></header>
+<header>
+<name>Cache-Control</name>
+<value>no-cache</value></header>
+<header>
+<name>Postman-Token</name>
+<value>12d6fe1e-24ee-482b-b592-2bcfc284fc68</value></header>
+<header>
+<name>Host</name>
+<value>162.55.220.72:5005</value></header>
+<header>
+<name>Accept-Encoding</name>
+<value>gzip, deflate, br</value></header>
+<header>
+<name>Connection</name>
+<value>keep-alive</value></header>
+<header>
+<name>Content-Type</name>
+<value>multipart/form-data; boundary=--------------------------659381882803111716716566</value></header>
+<header>
+<name>Content-Length</name>
+<value>378</value></header></headers></request>
+<response status="200" headers="235" body="331" mime-type="application/json">
+<headers>
+<first-line><![CDATA[HTTP/1.0 200 OK]]></first-line>
+<header>
+<name>Content-Type</name>
+<value>application/json</value></header>
+<header>
+<name>Content-Length</name>
+<value>331</value></header>
+<header>
+<name>Server</name>
+<value>Werkzeug/2.0.1 Python/3.8.10</value></header>
+<header>
+<name>Date</name>
+<value>Thu, 02 Feb 2023 11:00:30 GMT</value></header>
+<header>
+<name>Connection</name>
+<value>close</value></header></headers></response></transaction>
+<transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="162.55.220.72" port="5005" actualPort="5005" path="/user_info_2" remoteAddress="162.55.220.72/162.55.220.72" clientAddress="/127.0.0.1" clientPort="52584" startTime="2023-02-02T12:01:16.561+01:00" startTimeMillis="1675335676561" requestBeginTime="2023-02-02T12:01:16.583+01:00" requestBeginTimeMillis="1675335676583" requestTime="2023-02-02T12:01:16.583+01:00" requestTimeMillis="1675335676583" responseTime="2023-02-02T12:01:16.613+01:00" responseTimeMillis="1675335676613" endTime="2023-02-02T12:01:16.613+01:00" endTimeMillis="1675335676613" duration="51" dnsDuration="0" connectDuration="21" requestDuration="0" responseDuration="0" latency="30" overallSpeed="25549" requestSpeed="0" responseSpeed="0" totalSize="1303">
+<request headers="359" body="378" mime-type="multipart/form-data">
+<headers>
+<first-line><![CDATA[POST /user_info_2 HTTP/1.1]]></first-line>
+<header>
+<name>User-Agent</name>
+<value>PostmanRuntime/7.30.1</value></header>
+<header>
+<name>Accept</name>
+<value>*/*</value></header>
+<header>
+<name>Cache-Control</name>
+<value>no-cache</value></header>
+<header>
+<name>Postman-Token</name>
+<value>9f1404f4-f262-4a8e-9026-8b811547f7c6</value></header>
+<header>
+<name>Host</name>
+<value>162.55.220.72:5005</value></header>
+<header>
+<name>Accept-Encoding</name>
+<value>gzip, deflate, br</value></header>
+<header>
+<name>Content-Type</name>
+<value>multipart/form-data; boundary=--------------------------514162254339975893920549</value></header>
+<header>
+<name>Content-Length</name>
+<value>378</value></header>
+<header>
+<name>Connection</name>
+<value>keep-alive</value></header></headers></request>
+<response status="200" headers="235" body="331" mime-type="application/json">
+<headers>
+<first-line><![CDATA[HTTP/1.0 200 OK]]></first-line>
+<header>
+<name>Content-Type</name>
+<value>application/json</value></header>
+<header>
+<name>Server</name>
+<value>Werkzeug/2.0.1 Python/3.8.10</value></header>
+<header>
+<name>Date</name>
+<value>Thu, 02 Feb 2023 11:01:17 GMT</value></header>
+<header>
+<name>Content-Length</name>
+<value>306</value></header>
+<header>
+<name>Connection</name>
+<value>close</value></header></headers></response></transaction>
+<transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="162.55.220.72" port="5005" actualPort="5005" path="/user_info_2" remoteAddress="162.55.220.72/162.55.220.72" clientAddress="/127.0.0.1" clientPort="52598" startTime="2023-02-02T12:02:11.119+01:00" startTimeMillis="1675335731119" requestBeginTime="2023-02-02T12:02:11.145+01:00" requestBeginTimeMillis="1675335731145" requestTime="2023-02-02T12:02:11.145+01:00" requestTimeMillis="1675335731145" responseTime="2023-02-02T12:02:11.178+01:00" responseTimeMillis="1675335731178" endTime="2023-02-02T12:02:11.178+01:00" endTimeMillis="1675335731178" duration="59" dnsDuration="0" connectDuration="26" requestDuration="0" responseDuration="0" latency="33" overallSpeed="22084" requestSpeed="0" responseSpeed="0" totalSize="1303">
+<request headers="359" body="378" mime-type="multipart/form-data">
+<headers>
+<first-line><![CDATA[POST /user_info_2 HTTP/1.1]]></first-line>
+<header>
+<name>User-Agent</name>
+<value>PostmanRuntime/7.30.1</value></header>
+<header>
+<name>Accept</name>
+<value>*/*</value></header>
+<header>
+<name>Cache-Control</name>
+<value>no-cache</value></header>
+<header>
+<name>Postman-Token</name>
+<value>8d2e5513-2181-4aa0-874f-8e3a098d9ece</value></header>
+<header>
+<name>Host</name>
+<value>162.55.220.72:5005</value></header>
+<header>
+<name>Accept-Encoding</name>
+<value>gzip, deflate, br</value></header>
+<header>
+<name>Content-Type</name>
+<value>multipart/form-data; boundary=--------------------------786551682771427936281972</value></header>
+<header>
+<name>Content-Length</name>
+<value>378</value></header>
+<header>
+<name>Connection</name>
+<value>keep-alive</value></header></headers></request>
+<response status="200" headers="235" body="331" mime-type="application/json">
+<headers>
+<first-line><![CDATA[HTTP/1.0 200 OK]]></first-line>
+<header>
+<name>Content-Type</name>
+<value>application/json</value></header>
+<header>
+<name>Server</name>
+<value>Werkzeug/2.0.1 Python/3.8.10</value></header>
+<header>
+<name>Date</name>
+<value>Thu, 02 Feb 2023 11:02:12 GMT</value></header>
+<header>
+<name>Content-Length</name>
+<value>294</value></header>
+<header>
+<name>Connection</name>
+<value>close</value></header></headers></response></transaction>
+<transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="162.55.220.72" port="5005" actualPort="5005" path="/user_info_2" remoteAddress="162.55.220.72/162.55.220.72" clientAddress="/127.0.0.1" clientPort="52628" startTime="2023-02-02T12:04:28.550+01:00" startTimeMillis="1675335868550" requestBeginTime="2023-02-02T12:04:28.575+01:00" requestBeginTimeMillis="1675335868575" requestTime="2023-02-02T12:04:28.576+01:00" requestTimeMillis="1675335868576" responseTime="2023-02-02T12:04:28.625+01:00" responseTimeMillis="1675335868625" endTime="2023-02-02T12:04:28.625+01:00" endTimeMillis="1675335868625" duration="75" dnsDuration="0" connectDuration="25" requestDuration="1" responseDuration="0" latency="49" overallSpeed="189146" requestSpeed="306000" responseSpeed="0" totalSize="14186">
+<request headers="294" body="12" mime-type="application/json">
+<headers>
+<first-line><![CDATA[POST /user_info_2 HTTP/1.1]]></first-line>
+<header>
+<name>Content-Type</name>
+<value>application/json</value></header>
+<header>
+<name>User-Agent</name>
+<value>PostmanRuntime/7.30.1</value></header>
+<header>
+<name>Accept</name>
+<value>*/*</value></header>
+<header>
+<name>Cache-Control</name>
+<value>no-cache</value></header>
+<header>
+<name>Postman-Token</name>
+<value>74a22ad4-5ff7-4499-8012-688fd8479490</value></header>
+<header>
+<name>Host</name>
+<value>162.55.220.72:5005</value></header>
+<header>
+<name>Accept-Encoding</name>
+<value>gzip, deflate, br</value></header>
+<header>
+<name>Content-Length</name>
+<value>12</value></header>
+<header>
+<name>Connection</name>
+<value>keep-alive</value></header></headers></request>
+<response status="500" headers="243" body="13637" mime-type="text/html" charset="utf-8">
+<headers>
+<first-line><![CDATA[HTTP/1.0 500 INTERNAL SERVER ERROR]]></first-line>
+<header>
+<name>Content-Type</name>
+<value>text/html; charset=utf-8</value></header>
+<header>
+<name>X-XSS-Protection</name>
+<value>0</value></header>
+<header>
+<name>Server</name>
+<value>Werkzeug/2.0.1 Python/3.8.10</value></header>
+<header>
+<name>Date</name>
+<value>Thu, 02 Feb 2023 11:04:29 GMT</value></header>
+<header>
+<name>Connection</name>
+<value>close</value></header></headers></response></transaction>
+<transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="162.55.220.72" port="5005" actualPort="5005" path="/user_info_2" remoteAddress="162.55.220.72/162.55.220.72" clientAddress="/127.0.0.1" clientPort="52640" startTime="2023-02-02T12:05:17.168+01:00" startTimeMillis="1675335917168" requestBeginTime="2023-02-02T12:05:17.189+01:00" requestBeginTimeMillis="1675335917189" requestTime="2023-02-02T12:05:17.190+01:00" requestTimeMillis="1675335917190" responseTime="2023-02-02T12:05:17.217+01:00" responseTimeMillis="1675335917217" endTime="2023-02-02T12:05:17.218+01:00" endTimeMillis="1675335917218" duration="50" dnsDuration="0" connectDuration="21" requestDuration="1" responseDuration="1" latency="27" overallSpeed="13240" requestSpeed="241000" responseSpeed="421000" totalSize="662">
+<request headers="241" body="0">
+<headers>
+<first-line><![CDATA[GET /user_info_2 HTTP/1.1]]></first-line>
+<header>
+<name>User-Agent</name>
+<value>PostmanRuntime/7.30.1</value></header>
+<header>
+<name>Accept</name>
+<value>*/*</value></header>
+<header>
+<name>Cache-Control</name>
+<value>no-cache</value></header>
+<header>
+<name>Postman-Token</name>
+<value>38e5efda-3e53-404f-a68d-1fe33ef87d86</value></header>
+<header>
+<name>Host</name>
+<value>162.55.220.72:5005</value></header>
+<header>
+<name>Accept-Encoding</name>
+<value>gzip, deflate, br</value></header>
+<header>
+<name>Connection</name>
+<value>keep-alive</value></header></headers></request>
+<response status="405" headers="243" body="178" mime-type="text/html" charset="utf-8">
+<headers>
+<first-line><![CDATA[HTTP/1.0 405 METHOD NOT ALLOWED]]></first-line>
+<header>
+<name>Content-Type</name>
+<value>text/html; charset=utf-8</value></header>
+<header>
+<name>Allow</name>
+<value>OPTIONS, POST</value></header>
+<header>
+<name>Content-Length</name>
+<value>178</value></header>
+<header>
+<name>Server</name>
+<value>Werkzeug/2.0.1 Python/3.8.10</value></header>
+<header>
+<name>Date</name>
+<value>Thu, 02 Feb 2023 11:05:18 GMT</value></header>
+<header>
+<name>Connection</name>
+<value>close</value></header></headers></response></transaction>
+<transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="162.55.220.72" port="5005" actualPort="5005" path="/user_info_2" remoteAddress="162.55.220.72/162.55.220.72" clientAddress="/127.0.0.1" clientPort="52645" startTime="2023-02-02T12:05:47.629+01:00" startTimeMillis="1675335947629" requestBeginTime="2023-02-02T12:05:52.656+01:00" requestBeginTimeMillis="1675335952656" requestTime="2023-02-02T12:05:52.656+01:00" requestTimeMillis="1675335952656" responseTime="2023-02-02T12:05:52.681+01:00" responseTimeMillis="1675335952681" endTime="2023-02-02T12:05:52.685+01:00" endTimeMillis="1675335952685" duration="44" dnsDuration="0" connectDuration="15" requestDuration="0" responseDuration="4" latency="25" overallSpeed="15909" requestSpeed="0" responseSpeed="114750" totalSize="700">
+<request headers="241" body="0">
+<headers>
+<first-line><![CDATA[GET /user_info_2 HTTP/1.1]]></first-line>
+<header>
+<name>User-Agent</name>
+<value>PostmanRuntime/7.30.1</value></header>
+<header>
+<name>Accept</name>
+<value>*/*</value></header>
+<header>
+<name>Cache-Control</name>
+<value>no-cache</value></header>
+<header>
+<name>Postman-Token</name>
+<value>96c1dbcd-57b6-4a2b-92fe-22fcd94f4380</value></header>
+<header>
+<name>Host</name>
+<value>162.55.220.72:5005</value></header>
+<header>
+<name>Accept-Encoding</name>
+<value>gzip, deflate, br</value></header>
+<header>
+<name>Connection</name>
+<value>keep-alive</value></header></headers></request>
+<response status="405" headers="281" body="178" mime-type="text/html" charset="utf-8">
+<headers>
+<first-line><![CDATA[HTTP/1.0 405 METHOD NOT ALLOWED]]></first-line>
+<header>
+<name>Content-Type</name>
+<value>text/html; charset=utf-8</value></header>
+<header>
+<name>Allow</name>
+<value>OPTIONS, POST</value></header>
+<header>
+<name>Content-Length</name>
+<value>178</value></header>
+<header>
+<name>Server</name>
+<value>Werkzeug/2.0.1 Python/3.8.10</value></header>
+<header>
+<name>Date</name>
+<value>Thu, 02 Feb 2023 11:05:53 GMT</value></header>
+<header>
+<name>Connection</name>
+<value>close</value></header></headers></response></transaction>
+<transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="162.55.220.72" port="5005" actualPort="5005" path="/user_info_2" remoteAddress="162.55.220.72/162.55.220.72" clientAddress="/127.0.0.1" clientPort="52656" startTime="2023-02-02T12:06:38.887+01:00" startTimeMillis="1675335998887" requestBeginTime="2023-02-02T12:07:00.896+01:00" requestBeginTimeMillis="1675336020896" requestTime="2023-02-02T12:07:00.898+01:00" requestTimeMillis="1675336020898" responseTime="2023-02-02T12:07:00.926+01:00" responseTimeMillis="1675336020926" endTime="2023-02-02T12:07:00.926+01:00" endTimeMillis="1675336020926" duration="50" dnsDuration="0" connectDuration="20" requestDuration="2" responseDuration="0" latency="28" overallSpeed="25880" requestSpeed="368500" responseSpeed="0" totalSize="1294">
+<request headers="359" body="378" mime-type="multipart/form-data">
+<headers>
+<first-line><![CDATA[POST /user_info_2 HTTP/1.1]]></first-line>
+<header>
+<name>User-Agent</name>
+<value>PostmanRuntime/7.30.1</value></header>
+<header>
+<name>Accept</name>
+<value>*/*</value></header>
+<header>
+<name>Cache-Control</name>
+<value>no-cache</value></header>
+<header>
+<name>Postman-Token</name>
+<value>6609d45e-b016-44a6-b113-116d456cd515</value></header>
+<header>
+<name>Host</name>
+<value>162.55.220.72:5005</value></header>
+<header>
+<name>Accept-Encoding</name>
+<value>gzip, deflate, br</value></header>
+<header>
+<name>Connection</name>
+<value>keep-alive</value></header>
+<header>
+<name>Content-Type</name>
+<value>multipart/form-data; boundary=--------------------------593319349110884377211929</value></header>
+<header>
+<name>Content-Length</name>
+<value>378</value></header></headers></request>
+<response status="200" headers="235" body="322" mime-type="application/json">
+<headers>
+<first-line><![CDATA[HTTP/1.0 200 OK]]></first-line>
+<header>
+<name>Content-Type</name>
+<value>application/json</value></header>
+<header>
+<name>Content-Length</name>
+<value>322</value></header>
+<header>
+<name>Server</name>
+<value>Werkzeug/2.0.1 Python/3.8.10</value></header>
+<header>
+<name>Date</name>
+<value>Thu, 02 Feb 2023 11:07:01 GMT</value></header>
+<header>
+<name>Connection</name>
+<value>close</value></header></headers></response></transaction>
+<transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="162.55.220.72" port="5005" actualPort="5005" path="/user_info_2" remoteAddress="162.55.220.72/162.55.220.72" clientAddress="/127.0.0.1" clientPort="52710" startTime="2023-02-02T12:08:56.305+01:00" startTimeMillis="1675336136305" requestBeginTime="2023-02-02T12:08:56.326+01:00" requestBeginTimeMillis="1675336136326" requestTime="2023-02-02T12:08:56.327+01:00" requestTimeMillis="1675336136327" responseTime="2023-02-02T12:08:56.357+01:00" responseTimeMillis="1675336136357" endTime="2023-02-02T12:08:56.358+01:00" endTimeMillis="1675336136358" duration="53" dnsDuration="0" connectDuration="21" requestDuration="1" responseDuration="1" latency="30" overallSpeed="24584" requestSpeed="737000" responseSpeed="566000" totalSize="1303">
+<request headers="359" body="378" mime-type="multipart/form-data">
+<headers>
+<first-line><![CDATA[POST /user_info_2 HTTP/1.1]]></first-line>
+<header>
+<name>User-Agent</name>
+<value>PostmanRuntime/7.30.1</value></header>
+<header>
+<name>Accept</name>
+<value>*/*</value></header>
+<header>
+<name>Cache-Control</name>
+<value>no-cache</value></header>
+<header>
+<name>Postman-Token</name>
+<value>86c39b13-9ca8-4d3b-8a67-b78c9ab365b9</value></header>
+<header>
+<name>Host</name>
+<value>162.55.220.72:5005</value></header>
+<header>
+<name>Accept-Encoding</name>
+<value>gzip, deflate, br</value></header>
+<header>
+<name>Content-Type</name>
+<value>multipart/form-data; boundary=--------------------------196202096140161943334799</value></header>
+<header>
+<name>Content-Length</name>
+<value>378</value></header>
+<header>
+<name>Connection</name>
+<value>keep-alive</value></header></headers></request>
+<response status="200" headers="235" body="331" mime-type="application/json">
+<headers>
+<first-line><![CDATA[HTTP/1.0 200 OK]]></first-line>
+<header>
+<name>Content-Type</name>
+<value>application/json</value></header>
+<header>
+<name>Server</name>
+<value>Werkzeug/2.0.1 Python/3.8.10</value></header>
+<header>
+<name>Date</name>
+<value>Thu, 02 Feb 2023 11:08:57 GMT</value></header>
+<header>
+<name>Content-Length</name>
+<value>306</value></header>
+<header>
+<name>Connection</name>
+<value>close</value></header></headers></response></transaction>
+<transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="162.55.220.72" port="5005" actualPort="5005" path="/user_info_2" remoteAddress="162.55.220.72/162.55.220.72" clientAddress="/127.0.0.1" clientPort="52733" startTime="2023-02-02T12:10:05.278+01:00" startTimeMillis="1675336205278" requestBeginTime="2023-02-02T12:10:05.298+01:00" requestBeginTimeMillis="1675336205298" requestTime="2023-02-02T12:10:05.298+01:00" requestTimeMillis="1675336205298" responseTime="2023-02-02T12:10:05.329+01:00" responseTimeMillis="1675336205329" endTime="2023-02-02T12:10:05.329+01:00" endTimeMillis="1675336205329" duration="51" dnsDuration="0" connectDuration="20" requestDuration="0" responseDuration="0" latency="31" overallSpeed="25549" requestSpeed="0" responseSpeed="0" totalSize="1303">
+<request headers="359" body="378" mime-type="multipart/form-data">
+<headers>
+<first-line><![CDATA[POST /user_info_2 HTTP/1.1]]></first-line>
+<header>
+<name>User-Agent</name>
+<value>PostmanRuntime/7.30.1</value></header>
+<header>
+<name>Accept</name>
+<value>*/*</value></header>
+<header>
+<name>Cache-Control</name>
+<value>no-cache</value></header>
+<header>
+<name>Postman-Token</name>
+<value>2744e2c9-cf76-4aad-af47-e51554e8e223</value></header>
+<header>
+<name>Host</name>
+<value>162.55.220.72:5005</value></header>
+<header>
+<name>Accept-Encoding</name>
+<value>gzip, deflate, br</value></header>
+<header>
+<name>Content-Type</name>
+<value>multipart/form-data; boundary=--------------------------510788644944139301308354</value></header>
+<header>
+<name>Content-Length</name>
+<value>378</value></header>
+<header>
+<name>Connection</name>
+<value>keep-alive</value></header></headers></request>
+<response status="200" headers="235" body="331" mime-type="application/json">
+<headers>
+<first-line><![CDATA[HTTP/1.0 200 OK]]></first-line>
+<header>
+<name>Content-Type</name>
+<value>application/json</value></header>
+<header>
+<name>Server</name>
+<value>Werkzeug/2.0.1 Python/3.8.10</value></header>
+<header>
+<name>Date</name>
+<value>Thu, 02 Feb 2023 11:10:06 GMT</value></header>
+<header>
+<name>Content-Length</name>
+<value>307</value></header>
+<header>
+<name>Connection</name>
+<value>close</value></header></headers></response></transaction>
+<transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="162.55.220.72" port="5005" actualPort="5005" path="/user_info_2" remoteAddress="162.55.220.72/162.55.220.72" clientAddress="/127.0.0.1" clientPort="52744" startTime="2023-02-02T12:10:52.012+01:00" startTimeMillis="1675336252012" requestBeginTime="2023-02-02T12:10:52.043+01:00" requestBeginTimeMillis="1675336252043" requestTime="2023-02-02T12:10:52.043+01:00" requestTimeMillis="1675336252043" responseTime="2023-02-02T12:10:52.083+01:00" responseTimeMillis="1675336252083" endTime="2023-02-02T12:10:52.091+01:00" endTimeMillis="1675336252091" duration="79" dnsDuration="0" connectDuration="31" requestDuration="0" responseDuration="8" latency="40" overallSpeed="16493" requestSpeed="0" responseSpeed="70750" totalSize="1303">
+<request headers="359" body="378" mime-type="multipart/form-data">
+<headers>
+<first-line><![CDATA[POST /user_info_2 HTTP/1.1]]></first-line>
+<header>
+<name>User-Agent</name>
+<value>PostmanRuntime/7.30.1</value></header>
+<header>
+<name>Accept</name>
+<value>*/*</value></header>
+<header>
+<name>Cache-Control</name>
+<value>no-cache</value></header>
+<header>
+<name>Postman-Token</name>
+<value>69f7ab5f-7f6c-470a-9e58-2ae5e8c5af32</value></header>
+<header>
+<name>Host</name>
+<value>162.55.220.72:5005</value></header>
+<header>
+<name>Accept-Encoding</name>
+<value>gzip, deflate, br</value></header>
+<header>
+<name>Content-Type</name>
+<value>multipart/form-data; boundary=--------------------------952506509190836137997031</value></header>
+<header>
+<name>Content-Length</name>
+<value>378</value></header>
+<header>
+<name>Connection</name>
+<value>keep-alive</value></header></headers></request>
+<response status="200" headers="235" body="331" mime-type="application/json">
+<headers>
+<first-line><![CDATA[HTTP/1.0 200 OK]]></first-line>
+<header>
+<name>Content-Type</name>
+<value>application/json</value></header>
+<header>
+<name>Server</name>
+<value>Werkzeug/2.0.1 Python/3.8.10</value></header>
+<header>
+<name>Date</name>
+<value>Thu, 02 Feb 2023 11:10:52 GMT</value></header>
+<header>
+<name>Content-Length</name>
+<value>292</value></header>
+<header>
+<name>Connection</name>
+<value>close</value></header></headers></response></transaction></charles-session>
